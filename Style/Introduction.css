@@ -1,0 +1,127 @@
+#page1{
+background: white url("../Images/cover.jpg") no-repeat;
+background-size: cover;
+}
+#webbook {
+margin: 30% 30% 5%;
+}
+#web{
+color: white;
+font-size: 100px;
+}
+#book{
+color: red;
+font-size: 90px;
+}
+#project{
+color: blue;
+font-size: 70px;
+margin-left: 42%;
+}
+a {text-decoration:none;}
+a:visited {color:blue;}
+a:hover {color:green;}
+#link{
+margin-top:10%;
+margin-left:5%;
+overflow-x: hidden;
+}
+h1 {
+text-align: center;
+color: #EE82EE; 
+font-size: 40px;
+margin-top: 0px;
+}
+.text {
+text-align: justify;
+font-size: larger;
+line-height: 160%;
+}
+.important {
+color: red;
+margin-top: 0px;
+}
+#screenshot {
+width: 85%;
+border: 2px solid black;
+}
+details {
+    background-color: #A9DCF5;
+    height: 2.5%;
+    margin: 5% 5% 25% 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+#tester{margin-bottom: 15%}
+summary {padding-top: 5px;}
+.detailtext {
+margin-top: 5%;
+padding-bottom: 5%;
+text-align: justify;
+font-size: large;
+line-height: 120%;
+}
+#ds1 {color: rgb(0,230,0);}
+#ds2 {color: orange;}
+#ds3 {color: navy;}
+#ds4 {color: mediumvioletred ;}
+#structure{
+width: 90%;
+margin: 10% 5% 5% 5%;
+}
+#list{
+margin-top: 8%;
+margin-left: 5%;
+}
+li {
+margin: 2.5%;
+}
+.draggable {
+margin: 5%;
+width: 25%;
+height: 110px;
+background-color: #ccc;
+border: 1px solid #000;
+display: inline-block;
+}
+.target {
+display: inline-block;
+border: 10px solid #000;
+width: 28%;
+height: 110px;
+margin-left: 2%;
+margin-top: 10%;
+overflow-y: auto;
+}
+.target.over {
+border: 10px solid blue;
+}
+.target.right {
+border: 10px solid green;
+}
+.target.wrong {
+border: 10px solid red;
+}
+#box {
+  margin-left: 17%;
+}
+#boxcontainer {
+  height:20%;
+  margin-left:7%;
+  margin-bottom:10%;
+}
+.boxtext{
+  margin-top: 30%;
+  text-align: center;
+}
+.containertext{
+  margin-top: 20%;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+#result {
+  font-size:30px;
+  text-align:center;
+  background-color: #A9DCF5;
+}
